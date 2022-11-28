@@ -1,0 +1,13 @@
+.detail-info {
+  align-self: center;
+}
+
+.card-img-col {
+  position: relative;
+
+  .lupa {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
