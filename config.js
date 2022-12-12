@@ -11,7 +11,7 @@ const firebaseConfig = {
 
 initializeApp(firebaseConfig);
 
-//incripción de Firebass, - .env -
+//incripción de Firebass, - .env - copy y paste para entrar a la base de datos.
 
 //REACT_APP_API_KEY=AIzaSyAK93MCQ5lRsDvWmzZzYH-CpgKcKSj-VEk
 //REACT_APP_AUTH_DOMAIND=alaska-d8049.firebaseapp.com
