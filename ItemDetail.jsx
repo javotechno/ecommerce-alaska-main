@@ -14,16 +14,16 @@ export const ItemDetail = ({ data }) => {
   };
 
   return (
-    <div className="card mb-3 container-fluid container-demostracion">
+    <div className="card mb-3 container-fluid container-demostration">
       <div className="row g-0">
         <div
-          className="col-md-6 card-img-col"
+          className="col-md-6 card-img-col img1"
           style={{ backgroundImage: `url(${data.image})` }}
         >
           {/*  Button trigger modal */}
           <button
             type="button"
-            className="btn btn-secondary m-3 lupa"
+            className="btn btn-secondary m-3 glass"
             data-bs-toggle="modal"
             data-bs-target="#verImagen"
           >
@@ -60,17 +60,17 @@ export const ItemDetail = ({ data }) => {
           </div>
           {/* Modal */}
         </div>
-        <div className="card-body col-md-6 detail-info">
+        <div className="card-body col-md-6 detail-info detalle-info">
           <h4 className="card-title">{data.title}</h4>
           <p className="card-text">
             <strong>$: </strong>
             {data.price}
           </p>
           <p>Stock: {data.stock}</p>
-          <p>Stock: {data.descripcion}</p>
+          <p>Descripcion: {data.descripcion}</p>
 
           {goToCart ? (
-            <Link to="/carrito" className="btn btn-info">
+            <Link to="/carrito" className="btn btn-secondary">
               Terminar compra
             </Link>
           ) : (

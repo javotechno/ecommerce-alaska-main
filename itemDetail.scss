@@ -6,9 +6,20 @@
 .card-img-col {
   position: relative;
 
-  .lupa {
+  .glass {
     position: absolute;
     bottom: 0;
     right: 0;
   }
+}
+
+.container-demostration {
+  width: 51rem;
+  height: 24rem;
+  align-self: center;
+}
+
+.img1 {
+  width: 20rem;
+  height: 23rem;
 }

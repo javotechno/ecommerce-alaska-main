@@ -7,10 +7,27 @@
 }
 
 .container-demostracion {
-  width: 51rem;
-  height: 22rem;
+  width: 50rem;
+  height: auto;
+  background-color: #f9f9f9;
 }
 
 .card-body {
   color: #7686fe;
+}
+
+.btn-agregar-carrito {
+  width: 8rem;
+}
+
+.btn-volver-atras {
+  width: 8rem;
+}
+
+.btn-suma-carrito {
+  width: 4rem;
+}
+
+.btn-resta-carrito {
+  width: 4rem;
 }
