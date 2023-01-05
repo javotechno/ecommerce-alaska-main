@@ -19,6 +19,7 @@ Este E-commerce qmuestra los distintos productos en venta y se conecta a una bas
 - [Formik] -
 - [Framer motion]
 - [Github]
+-  [Cloudinary]
 
 ## Installation
 
@@ -46,6 +47,8 @@ This E-commerce shows the different products for sale and connects to a database
 - [Bootstrap 5.2] - -[HTML]- -[Fontawasome Icons]- -[Firebase]-
 - [Formic] -
 - [Framer motion] -[Github]
+- [Cloudinary]
+
 
 ## Installation
 
